@@ -8,13 +8,14 @@ namespace Tree
     {
         public Node left;
         public Node right;
-        public int key;
+        public int element;
 
-        public Node(int n)
+        public Node(int element)
         {
+            this.element = element;
             left = null;
             right = null;
-            key = n;
         }
+
     }
 }
